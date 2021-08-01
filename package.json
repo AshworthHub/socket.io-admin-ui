@@ -11,8 +11,7 @@
   "scripts": {
     "test": "npm run format:check && tsc && nyc mocha --require ts-node/register --timeout 5000 test/index.ts",
     "format:check": "prettier --parser typescript --check 'lib/**/*.ts' 'test/**/*.ts'",
-    "format:fix": "prettier --parser typescript --write 'lib/**/*.ts' 'test/**/*.ts'",
-    "prepack": "tsc"
+    "format:fix": "prettier --parser typescript --write 'lib/**/*.ts' 'test/**/*.ts'"
   },
   "repository": {
     "type": "git",

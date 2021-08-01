@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 .nyc_output
-dist
 
 
 # local env files

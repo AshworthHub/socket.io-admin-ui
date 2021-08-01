@@ -6,7 +6,7 @@ import {
   ServerEvents,
 } from "./typed-events";
 import debugModule from "debug";
-import { compare, getRounds } from "bcrypt";
+import { compare, getRounds } from "bcryptjs";
 import { isWorker } from "cluster";
 import { InMemoryStore, Store } from "./stores";
 import os = require("os");
